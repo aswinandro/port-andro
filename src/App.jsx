@@ -6,17 +6,31 @@ import {
   Experience,
   Feedbacks,
   Hero,
-  navbar,
+  Navbar,
   Tech,
   Works,
-  StarsCavas,
+  StarsCanvas,
 } from "./components";
-import React from "react";
 
-export const App = () => {
+const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-o bg-primary"></div>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-centter"></div>
+        <Navbar />
+        <Hero />
+      </div>
+      <About />
+      <Experience />
+      <Tech />
+      <Works />
+      <Feedbacks />
+      <div className="relative z-0">
+        <Contact />
+        <StarsCanvas />
+      </div>
     </BrowserRouter>
   );
 };
+
+export default App;

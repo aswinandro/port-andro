@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-// import About from './components/About';
+import About from "./components/About";
 // import Contact from './components/Contact';
 // import Experience from './components/Experience';
 // import Feedbacks from './components/Feedbacks';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 // import StarsCanvas from "./components/StarsCanvas";
 // import Tech from './components/Tech';
 // import Works from './components/Works';
@@ -19,12 +19,12 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
-      {/* <About />
-      <Experience />
+      <About />
+      {/* <Experience />
       <Tech />
       <Works />
       <Feedbacks /> */}
-      <div className="relative z-0"> 
+      <div className="relative z-0">
         {/* <Contact />
         <StarsCanvas /> */}
       </div>

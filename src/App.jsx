@@ -6,7 +6,8 @@ import Experience from "./components/Experience";
 import Feedbacks from "./components/Feedbacks";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import StarsCanvas from "./components/StarsCanvas";
+import StarsCanvas from "./components/canvas/Stars";
+import Spotify from "./components/Spotify";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
 
@@ -19,10 +20,12 @@ const App = () => {
         <Hero />
         <About />
         <Experience />
-        <Tech />
+
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
+          <Tech />
+          <Spotify />
           <Contact />
           <StarsCanvas />
         </div>

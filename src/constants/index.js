@@ -228,7 +228,7 @@ const projects = [
   {
     name: "EVEARA",
     description:
-      "EVEARA Music Distribution Platform to distribute music to Stores [Amazon Music, Spotify, Apple Music]",
+      "EVEARA Music Distribution Platform to distribute music to Stores [Amazon Music, Spotify, Apple Music] with plans for various users [SuperAdmin, Admin, User] White Label Partners",
     tags: [
       {
         name: "coldfusion",
@@ -242,26 +242,34 @@ const projects = [
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "ms-sql",
+        color: "green-text-gradient",
+      },
     ],
     image: jobit,
     source_code_link: "https://eveara.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Obo - Chat Bot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Chat-Bot processed by NLTK[Python] that behaves like an AI based Receptionist in providing customers about company services, appointments, suggestions, query data",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rest-api",
         color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
       },
     ],
     image: tripguide,
